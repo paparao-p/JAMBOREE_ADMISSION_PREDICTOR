@@ -72,3 +72,23 @@ CGPA > GRE Score > TOEFL Score > LOR > SOP > University Rating > Research
 **Conclusion:**  
 Academic strength is the **primary driver**, while profile documents and research background provide **supportive influence**.
 
+---
+
+## 💡 Summary
+The model explains approximately **82%** of the variation in admission probability. 
+Ridge Regression was selected as the final model because it stabilizes the coefficients 
+while allowing key academic metrics (GRE, TOEFL, CGPA) to remain in the prediction pipeline. 
+This makes the model both **interpretable** and **practically useful** for admission guidance.
+
+---
+
+## 🛠️ Tech Stack
+Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, SciPy
+
+---
+
+## 📎 How to Run
+```bash
+pip install -r requirements.txt
+jupyter notebook
+
